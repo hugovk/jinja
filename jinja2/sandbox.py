@@ -49,12 +49,6 @@ UNSAFE_COROUTINE_ATTRIBUTES = set(['cr_frame', 'cr_code'])
 #: unsafe attributes on async generators
 UNSAFE_ASYNC_GENERATOR_ATTRIBUTES = set(['ag_code', 'ag_frame'])
 
-import warnings
-
-# make sure we don't warn in python 2.6 about stuff we don't care about
-warnings.filterwarnings('ignore', 'the sets module', DeprecationWarning,
-                        module='jinja2.sandbox')
-
 from collections import deque
 
 _mutable_set_types = (set,)

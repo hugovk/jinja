@@ -12,7 +12,7 @@ useful for templating environments.
 Prerequisites
 -------------
 
-Jinja2 works with Python 2.6.x, 2.7.x and >= 3.3.  If you are using Python
+Jinja2 works with Python 2.7 and >= 3.3.  If you are using Python
 3.2 you can use an older release of Jinja2 (2.6) as support for Python 3.2
 was dropped in Jinja2 version 2.7.
 
@@ -61,7 +61,7 @@ which will install the package via `distribute` in development mode.  This also
 has the advantage that the C extensions are compiled.
 
 .. _download page: https://pypi.python.org/pypi/Jinja2
-.. _distribute: https://pypi.python.org/pypi/distribute 
+.. _distribute: https://pypi.python.org/pypi/distribute
 .. _setuptools: http://peak.telecommunity.com/DevCenter/setuptools
 .. _easy_install: http://peak.telecommunity.com/DevCenter/EasyInstall
 .. _pip: https://pypi.python.org/pypi/pip
